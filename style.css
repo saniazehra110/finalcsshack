@@ -1,0 +1,50 @@
+
+.hero1{
+    height: 60vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+}
+.text1{
+width: 50%;
+padding: 20vh;
+color: white;
+}
+.image1{
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 5%;
+}
+.container{
+    background-color: white;
+    z-index: 1;
+    margin-top: -80px;
+}
+.col{
+   background-color: aliceblue;
+}
+.pic{
+    width: 100%;
+}
+/*-------------------post start---------------------*/
+.post{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+}
+.pic2{
+    width: 80%;
+}
+.post1{
+    padding: 5%;
+}
+.post2{
+    padding: 5%;
+}
+
+/*-------------------card1 start---------------------*/
+
+.card1{
+    display: flex;
+    justify-content: space-evenly;
+}
