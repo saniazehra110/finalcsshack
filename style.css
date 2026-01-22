@@ -1,6 +1,6 @@
-
+/*----------------hero start---------------*/
 .hero1{
-    height: 60vh;
+    height: 90vh;
     width: 100%;
     background-color: blueviolet;
     display: flex;
@@ -11,21 +11,44 @@ padding: 20vh;
 color: white;
 }
 .image1{
-    width: 50%;
+    width: 40%;
     padding-left: 50px;
     padding-top: 5%;
+}
+.imaage1{
+width: 110%;
+height: 70vh;
+border-radius: 10px;
+}
+/*----------------hero end---------------*/
+/*----------------footer start---------------*/
+.footer{
+    height: 100vh;
+    width: 100%;
 }
 .container{
     background-color: white;
     z-index: 1;
-    margin-top: -80px;
+    margin-top: -50vh;
+    width: 100%;
+    padding-left: 30px;
+}
+
+.row{
+    width: 90%;
+padding-left: 20%;
 }
 .col{
    background-color: aliceblue;
+   width: 50%;
+    margin-left: 30px;
 }
 .pic{
-    width: 100%;
+    width: 95%;
+    height: 110vh;
+padding: 20vh;
 }
+/*----------------footer end---------------*/
 /*-------------------post start---------------------*/
 .post{
     display: flex;
@@ -33,7 +56,8 @@ color: white;
     width: 100%;
 }
 .pic2{
-    width: 80%;
+    width: 100%;
+
 }
 .post1{
     padding: 5%;
@@ -43,8 +67,78 @@ color: white;
 }
 
 /*-------------------card1 start---------------------*/
-
+.cards{
+    height: 120vh;
+    width: 100%;
+    padding: 15vh;
+}
 .card1{
     display: flex;
+gap: 2em;
+
+}
+.img-3{
+    border-radius: 5px;
+}
+/*-------------------card1 end---------------------*/
+/*-------------------card2 start---------------------*/
+
+.card2{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+
+}
+.card{
+     border: none !important;
+  box-shadow: none !important;
+}
+.img1{
+    height: 46vh;
+}
+.card.box2{
+    height: 88vh;
+ 
+}
+.img-big{
+    height: 60vh !important;
+}
+/*-------------------card2 end---------------------*/
+/*-------------------card3 start---------------------*/
+.card3{
+    display: flex;
+    height: 90vh;
+    width: 100%;
     justify-content: space-evenly;
 }
+
+
+.img1{
+    height: 46vh;
+}
+.card.box2{
+    height: 88vh;
+ 
+}
+.img-bigg{
+    height: 46vh !important;
+}
+/*-------------------card3 end---------------------*/
+/*-------------------2nd last start---------------------*/
+.last2{
+height: 80vh;
+width: 100%;
+}
+.content1{
+    width: 100%;
+    height: 60vh;
+    background-color: blueviolet;
+}
+.content{
+    width: 50%;
+color: white;
+padding: 10vh;
+}
+/*-------------------2nd last end---------------------*/
